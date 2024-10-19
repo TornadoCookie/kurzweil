@@ -1,0 +1,9 @@
+DefaultDistDir build
+DefaultPlatform linux64-debug
+UseRaylib False
+
+ExtraLDFlag -lm
+
+Program kurzweil
+Source main.c
+Source cfbf.c
